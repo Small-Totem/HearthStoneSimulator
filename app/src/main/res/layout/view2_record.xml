@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearLayout_dialog1">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/refersh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="刷新"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="单抽"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:textSize="25sp"
+            android:gravity="center"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单抽数    "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/num0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num0"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出橙数    "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num1"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出橙率    "
+                android:textSize="20sp"/>
+            <TextView
+            android:id="@+id/num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="num2"
+            android:textSize="20sp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=""
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="开包"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:textSize="25sp"
+            android:gravity="center"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开包数    "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num3"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获得卡牌数量    "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num4"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:text=""
+            android:gravity="center"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出橙数    "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num5"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出橙率    "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/num6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num6"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:text=""
+            android:gravity="center"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="巨欧数    "
+                android:textSize="20sp"
+                android:onClick="europe"
+                android:textColor="@color/blue"/>
+            <TextView
+                android:id="@+id/num7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num7"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="巨欧率    "
+                android:textSize="20sp"
+                android:onClick="europe"
+                android:textColor="@color/blue"/>
+            <TextView
+                android:id="@+id/num8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num8"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:text=""
+            android:gravity="center"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="非洲数    "
+                android:textSize="20sp"
+                android:textColor="@color/blue"
+                android:onClick="africa"/>
+            <TextView
+                android:id="@+id/num9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num9"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="非洲率    "
+                android:textSize="20sp"
+                android:onClick="africa"
+                android:textColor="@color/blue"/>
+            <TextView
+                android:id="@+id/num10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num10"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:text=""
+            android:gravity="center"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作弊1状态    "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/boolean1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="boolean1"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作弊2状态    "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/boolean2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="boolean2"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text=""
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="收集进度"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/full"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:id="@+id/progress_value1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="2dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="12sp"
+                android:text="0%" />
+            <ProgressBar
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/progress1"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+                android:indeterminateOnly="false"
+                android:max="100"
+                android:maxHeight="50dp"
+                android:minHeight="16dp"
+                android:progress="20" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=""
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/button2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看已获取卡牌" />
+        <Button
+            android:id="@+id/button2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看缺失卡牌" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text=""
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/button2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:text="清零" />
+        <!--android:onClick=""-->
+    </LinearLayout>
+</ScrollView>

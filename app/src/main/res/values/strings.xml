@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">开包模拟器</string>
+    <string name="problem">现版本问题:\n->只有经典卡\n->没有金卡\n->还有没发现的,欢迎反馈(反馈了也懒得改)</string>
+    <string name="rich">"有橙人的生活就是这么朴实无华\n且枯燥"</string>
+    <string name="ver">"作者:Small_Totem\nGithub:https://github.com/Small-Totem\n版本:5.0(稳定版) release#2\n"</string>
+</resources>
