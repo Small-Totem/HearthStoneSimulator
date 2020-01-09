@@ -6,5 +6,4 @@
 //好像只能在安卓9及更高版本稳定运行  
   
 运行截图  
-![](img/Screenshot_2020-01-09-12-42-27-828_com.zjh.hs.jpg)  
-![](img/Screenshot_2020-01-09-12-42-47-281_com.zjh.hs.jpg)
+![](img/Screenshot_2020-01-09-12-42-27-828_com.zjh.hs.jpg)![](img/Screenshot_2020-01-09-12-42-47-281_com.zjh.hs.jpg)
